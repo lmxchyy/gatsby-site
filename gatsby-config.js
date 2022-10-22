@@ -6,10 +6,12 @@
 
 module.exports = {
   /* Your site config here */
-  siteMetaData{
-    title: '聚合支付业务交流',
-    author: 'diving'
-  }
+  // pathPrefix: "/",
+  siteMetadata:{
+    title: 'Diving-web!',
+    author: 'The Author'
+  },
+
   plugins: [
     'gatsby-plugin-sass'
   ],
