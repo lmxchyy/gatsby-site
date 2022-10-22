@@ -1,0 +1,11 @@
+---
+title:"The Great Gatsby great static web"
+date: "2022-10.22"
+---
+my first blog in gatsby
+
+## Topics Covered
+
+1. Gatsby
+2. GraphQL
+3. React
