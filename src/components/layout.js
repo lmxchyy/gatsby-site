@@ -1,3 +1,4 @@
+import { useStaticQuery } from "gatsby";
 import React from "react";
 import Footer from '../components/footer'
 import Header from '../components/header'
@@ -6,7 +7,7 @@ import * as layoutStyles from './layout.module.scss'
 // import layoutStyles from '../components/layout.module.scss'
 
 const Layout =(props) =>{
-    return(
+     return(
         <div className={layoutStyles.container}>
             <div className={layoutStyles.content}>
             <Header />

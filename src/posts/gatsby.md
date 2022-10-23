@@ -1,8 +1,9 @@
 ---
-title:"The Great Gatsby great static web"
-date: "2022-10.22"
+title: "The Great Gatsby great static web"
+date: "2022-10-22"
 ---
-my first blog in gatsby
+
+my first blog used by remark in gatsby
 
 ## Topics Covered
 
