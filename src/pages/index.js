@@ -17,6 +17,9 @@ const IndexPage = () => {
       <p>了解聚合支付业务： <a href='https://baike.baidu.com/item/京东收银/62087475?fr=aladdin' target='_blank'> <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.9k9k.com%2Fm%2Fappimg%2F202012%2F31084800oxsj.png&refer=http%3A%2F%2Fimages.9k9k.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1669191157&t=3b26d7f8c85b40237b542e721332f454" width="30" alt="京东收银" /> 聚合支付业务介绍
           </a> 需要业务合作？请联系<Link to ='/about'>contact me.</Link>
       </p>
+
+
+
     </Layout>
   )
   
