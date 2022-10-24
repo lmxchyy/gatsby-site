@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return(
     <Layout>
-      <h1>京东聚合支付</h1>
+      <h1 align="center">京东聚合支付</h1>
       <h2>京东收银</h2>
       <p>
       京东收银隶属于京东科技集团。 京东收银助力线下门店实现数字化经营，专注打造安全、高效、稳定的以收银为核心的一站式门店数字化产品和服务，包含聚合收银软硬件解决方案、货品供应链、金融供应链、技术供应链等。
