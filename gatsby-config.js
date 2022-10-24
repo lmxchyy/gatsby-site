@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   // pathPrefix: "/",
   siteMetadata:{
-    title: 'Diving-web!',
+    title: '聚合支付业务',
     author: 'The Author'
   },
 
