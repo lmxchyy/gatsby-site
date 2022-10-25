@@ -1,4 +1,4 @@
-CONTENTFUL_ACCESS_TOKEN=eDFar6QrLoq5Xf5z2GpoapD_CA4mhlyRfju66SlsQ8E
+
 /**
  * Configure your Gatsby site with this file.
  *
