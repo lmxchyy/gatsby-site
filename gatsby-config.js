@@ -30,6 +30,7 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     `gatsby-plugin-image`,
+    "@contentful/rich-text-react-renderer",
     {
       resolve: 'gatsby-transformer-remark',
       options: {
