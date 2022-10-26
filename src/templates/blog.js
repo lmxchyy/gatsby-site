@@ -6,6 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import { useContentfulImage } from "gatsby-source-contentful/hooks"
 
 import Layout from '../components/layout'
+import Head from '../components/head'
 
 // export const query = graphql`
 //     query($slug: String!){
@@ -33,24 +34,43 @@ export const query = graphql`
     }
 `
 
+// export const query1 = graphql`
+//     query($title: String!){
+//         contentfulAsset(title: {eq: $title}){
+//             title
+//             file{
+//                 fileName
+//                 url
+//             }
+//         }
+//     }
+// `
+
+
 
 const Blog =(props) =>{
 
-    const options = {
-        renderNode: {
-            "embedded-asset-block": (node) => {
-                const alt = node.data.target.fields.title['en-US']
-                const url = node.data.target.fields.file['en-US'].url
-                return <img alt={alt} src= {url} />
-            }
-        }
-    }
+    // const options = {
+    //     renderNode: {
+    //         "embedded-asset-block": (node) => {
+    //             const alt = node.data.target.fields.title['en-US']
+    //             const url = node.data.target.fields.file['en-US'].url
+    //             // const url = node.data.target.fields.file['en-US'].url
+    //             return <img alt={alt} src= {url} />
+    //         }
+    //     }
+    // }
 
     return(
         <Layout>
-            <h1>{props.data.contentfulBlogPost.title}</h1>
+            <Head title={props.data.contentfulBlogPost.title} />
+            <h1>{props.data.contentfulBlogPost.title}</h1> 
             <p>{props.data.contentfulBlogPost.publishedDate}</p>
-            {documentToReactComponents(JSON.parse(props.data.contentfulBlogPost.body.raw,options))}
+            {/* {documentToReactComponents(JSON.parse(props.data.contentfulBlogPost.body.raw,options))} */}
+            {documentToReactComponents(JSON.parse(props.data.contentfulBlogPost.body.raw))}
+            {/* {documentToReactComponents(props.data.contentfulAsset.file.fileName)} */}
+            {/* <h1>{props.data.contentfulAsset.file.fileName}</h1> */}
+
         </Layout>
     )
 }

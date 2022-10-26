@@ -1,11 +1,14 @@
 
 import { Link } from 'gatsby'
 import React from 'react'
+
 import Layout from '../components/layout'
+import Head from '../components/head'
 
 const IndexPage = () => {
   return(
     <Layout>
+      <Head title= 'Home' />
       <h1 align="center">京东聚合支付</h1>
       <h2>京东收银</h2>
       <p>
