@@ -3,6 +3,7 @@ import {Link,graphql,useStaticQuery} from 'gatsby'
 import Layout from '../components/layout'
 import * as blogStyles from './blog.module.scss'
 import Head from '../components/head'
+
 //
 // Goal: Render Contentful Posts
 // 
