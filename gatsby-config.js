@@ -1,4 +1,8 @@
 
+// import * as dotenv from 'dotenv',
+// dotenv.config()
+// import express from 'express'
+
 /**
  * Configure your Gatsby site with this file.
  *
@@ -8,7 +12,8 @@
  require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-console.log(process.env)
+// console.log(process.env)  
+
 
 module.exports = {
   /* Your site config here */
