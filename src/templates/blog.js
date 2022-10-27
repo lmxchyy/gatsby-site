@@ -34,20 +34,6 @@ export const query = graphql`
     }
 `
 
-// export const query1 = graphql`
-//     query($title: String!){
-//         contentfulAsset(title: {eq: $title}){
-//             title
-//             file{
-//                 fileName
-//                 url
-//             }
-//         }
-//     }
-// `
-
-
-
 const Blog =(props) =>{
 
     // const options = {
